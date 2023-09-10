@@ -56,6 +56,7 @@ button {
     max-width: 1158px;
     margin: 0 auto;   
     padding: 0 15px; 
+    border-top: none;
 }
 
 .header {
@@ -238,11 +239,16 @@ button {
     align-items: center;
     justify-content: center;
     gap: 24px;
+    
 }
 
 .team-list-item {
     background-color: #FFFFFF;
     flex-basis: calc((100% - 72px) / 4);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
 }
 
 .team-list-content {
@@ -277,7 +283,6 @@ button {
     gap: 24px;
     flex-basis: calc((100% - 48px) / 3);
     max-height: 480px;
-    border-radius: 0px 0px 4px 4px;
 }
 
 .portfolio-item-text {
